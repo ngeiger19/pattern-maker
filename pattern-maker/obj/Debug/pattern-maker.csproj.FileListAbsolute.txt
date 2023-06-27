@@ -2,9 +2,9 @@ C:\Users\nmgei\coding\pattern-maker\pattern-maker\bin\Debug\pattern-maker.exe.co
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\bin\Debug\pattern-maker.exe
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\bin\Debug\pattern-maker.pdb
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.csprojAssemblyReference.cache
-C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern_maker.Form1.resources
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern_maker.Properties.Resources.resources
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.csproj.GenerateResource.cache
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.csproj.CoreCompileInputs.cache
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.exe
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.pdb
+C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern_maker.FormProjectSetup.resources

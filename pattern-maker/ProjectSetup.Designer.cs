@@ -28,289 +28,285 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.newProjectInfo = new System.Windows.Forms.GroupBox();
-            this.radioCentimeters = new System.Windows.Forms.RadioButton();
-            this.radioInches = new System.Windows.Forms.RadioButton();
-            this.labelGaugeIn = new System.Windows.Forms.Label();
-            this.numericGaugeMeasurementH = new System.Windows.Forms.NumericUpDown();
-            this.labelGaugeMeasurementX = new System.Windows.Forms.Label();
-            this.numericGaugeMeasurementW = new System.Windows.Forms.NumericUpDown();
-            this.labelStitches = new System.Windows.Forms.Label();
-            this.numericGaugeStitchesH = new System.Windows.Forms.NumericUpDown();
-            this.labelGaugeStitchesX = new System.Windows.Forms.Label();
-            this.labelGauge = new System.Windows.Forms.Label();
-            this.numericGaugeStitchesW = new System.Windows.Forms.NumericUpDown();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.labelYarn = new System.Windows.Forms.Label();
-            this.labelProjectName = new System.Windows.Forms.Label();
-            this.textProjectName = new System.Windows.Forms.TextBox();
-            this.buttonCreate = new System.Windows.Forms.Button();
-            this.newProjectInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeMeasurementH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeMeasurementW)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeStitchesH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeStitchesW)).BeginInit();
+            this.grpNewProjectInfo = new System.Windows.Forms.GroupBox();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.radCentimeters = new System.Windows.Forms.RadioButton();
+            this.radInches = new System.Windows.Forms.RadioButton();
+            this.lbGaugeIn = new System.Windows.Forms.Label();
+            this.numGaugeMeasurementH = new System.Windows.Forms.NumericUpDown();
+            this.lblGaugeMeasurementX = new System.Windows.Forms.Label();
+            this.numGaugeMeasurementW = new System.Windows.Forms.NumericUpDown();
+            this.lblStitches = new System.Windows.Forms.Label();
+            this.numGaugeStitchesH = new System.Windows.Forms.NumericUpDown();
+            this.lblGaugeStitchesX = new System.Windows.Forms.Label();
+            this.lblGauge = new System.Windows.Forms.Label();
+            this.numGaugeStitchesW = new System.Windows.Forms.NumericUpDown();
+            this.txtYarn = new System.Windows.Forms.TextBox();
+            this.lblYarn = new System.Windows.Forms.Label();
+            this.lblProjectName = new System.Windows.Forms.Label();
+            this.txtProjectName = new System.Windows.Forms.TextBox();
+            this.grpNewProjectInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeMeasurementH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeMeasurementW)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeStitchesH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeStitchesW)).BeginInit();
             this.SuspendLayout();
             // 
-            // newProjectInfo
+            // grpNewProjectInfo
             // 
-            this.newProjectInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.grpNewProjectInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.newProjectInfo.AutoSize = true;
-            this.newProjectInfo.Controls.Add(this.buttonCreate);
-            this.newProjectInfo.Controls.Add(this.radioCentimeters);
-            this.newProjectInfo.Controls.Add(this.radioInches);
-            this.newProjectInfo.Controls.Add(this.labelGaugeIn);
-            this.newProjectInfo.Controls.Add(this.numericGaugeMeasurementH);
-            this.newProjectInfo.Controls.Add(this.labelGaugeMeasurementX);
-            this.newProjectInfo.Controls.Add(this.numericGaugeMeasurementW);
-            this.newProjectInfo.Controls.Add(this.labelStitches);
-            this.newProjectInfo.Controls.Add(this.numericGaugeStitchesH);
-            this.newProjectInfo.Controls.Add(this.labelGaugeStitchesX);
-            this.newProjectInfo.Controls.Add(this.labelGauge);
-            this.newProjectInfo.Controls.Add(this.numericGaugeStitchesW);
-            this.newProjectInfo.Controls.Add(this.textBox1);
-            this.newProjectInfo.Controls.Add(this.labelYarn);
-            this.newProjectInfo.Controls.Add(this.labelProjectName);
-            this.newProjectInfo.Controls.Add(this.textProjectName);
-            this.newProjectInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.newProjectInfo.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newProjectInfo.ForeColor = System.Drawing.Color.Gray;
-            this.newProjectInfo.Location = new System.Drawing.Point(30, 30);
-            this.newProjectInfo.Name = "newProjectInfo";
-            this.newProjectInfo.Size = new System.Drawing.Size(793, 293);
-            this.newProjectInfo.TabIndex = 0;
-            this.newProjectInfo.TabStop = false;
-            this.newProjectInfo.Text = "New Project";
-            this.newProjectInfo.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.grpNewProjectInfo.Controls.Add(this.btnCreate);
+            this.grpNewProjectInfo.Controls.Add(this.radCentimeters);
+            this.grpNewProjectInfo.Controls.Add(this.radInches);
+            this.grpNewProjectInfo.Controls.Add(this.lbGaugeIn);
+            this.grpNewProjectInfo.Controls.Add(this.numGaugeMeasurementH);
+            this.grpNewProjectInfo.Controls.Add(this.lblGaugeMeasurementX);
+            this.grpNewProjectInfo.Controls.Add(this.numGaugeMeasurementW);
+            this.grpNewProjectInfo.Controls.Add(this.lblStitches);
+            this.grpNewProjectInfo.Controls.Add(this.numGaugeStitchesH);
+            this.grpNewProjectInfo.Controls.Add(this.lblGaugeStitchesX);
+            this.grpNewProjectInfo.Controls.Add(this.lblGauge);
+            this.grpNewProjectInfo.Controls.Add(this.numGaugeStitchesW);
+            this.grpNewProjectInfo.Controls.Add(this.txtYarn);
+            this.grpNewProjectInfo.Controls.Add(this.lblYarn);
+            this.grpNewProjectInfo.Controls.Add(this.lblProjectName);
+            this.grpNewProjectInfo.Controls.Add(this.txtProjectName);
+            this.grpNewProjectInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.grpNewProjectInfo.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpNewProjectInfo.ForeColor = System.Drawing.Color.Gray;
+            this.grpNewProjectInfo.Location = new System.Drawing.Point(30, 30);
+            this.grpNewProjectInfo.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.grpNewProjectInfo.MaximumSize = new System.Drawing.Size(790, 300);
+            this.grpNewProjectInfo.MinimumSize = new System.Drawing.Size(790, 300);
+            this.grpNewProjectInfo.Name = "grpNewProjectInfo";
+            this.grpNewProjectInfo.Size = new System.Drawing.Size(790, 300);
+            this.grpNewProjectInfo.TabIndex = 0;
+            this.grpNewProjectInfo.TabStop = false;
+            this.grpNewProjectInfo.Text = "New Project";
             // 
-            // radioCentimeters
+            // btnCreate
             // 
-            this.radioCentimeters.AutoSize = true;
-            this.radioCentimeters.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.radioCentimeters.Location = new System.Drawing.Point(636, 136);
-            this.radioCentimeters.Margin = new System.Windows.Forms.Padding(5);
-            this.radioCentimeters.Name = "radioCentimeters";
-            this.radioCentimeters.Size = new System.Drawing.Size(130, 27);
-            this.radioCentimeters.TabIndex = 14;
-            this.radioCentimeters.Text = "Centimeters";
-            this.radioCentimeters.UseVisualStyleBackColor = true;
+            this.btnCreate.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.btnCreate.Location = new System.Drawing.Point(611, 221);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(155, 42);
+            this.btnCreate.TabIndex = 15;
+            this.btnCreate.Text = "Create";
+            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.ButtonCreate_Click);
             // 
-            // radioInches
+            // radCentimeters
             // 
-            this.radioInches.AutoSize = true;
-            this.radioInches.Checked = true;
-            this.radioInches.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.radioInches.Location = new System.Drawing.Point(541, 133);
-            this.radioInches.Margin = new System.Windows.Forms.Padding(5);
-            this.radioInches.Name = "radioInches";
-            this.radioInches.Size = new System.Drawing.Size(85, 27);
-            this.radioInches.TabIndex = 13;
-            this.radioInches.TabStop = true;
-            this.radioInches.Text = "Inches";
-            this.radioInches.UseVisualStyleBackColor = true;
+            this.radCentimeters.AutoSize = true;
+            this.radCentimeters.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.radCentimeters.Location = new System.Drawing.Point(636, 136);
+            this.radCentimeters.Margin = new System.Windows.Forms.Padding(5);
+            this.radCentimeters.Name = "radCentimeters";
+            this.radCentimeters.Size = new System.Drawing.Size(130, 27);
+            this.radCentimeters.TabIndex = 14;
+            this.radCentimeters.Text = "Centimeters";
+            this.radCentimeters.UseVisualStyleBackColor = true;
             // 
-            // labelGaugeIn
+            // radInches
             // 
-            this.labelGaugeIn.AutoSize = true;
-            this.labelGaugeIn.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelGaugeIn.Location = new System.Drawing.Point(372, 108);
-            this.labelGaugeIn.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.labelGaugeIn.Name = "labelGaugeIn";
-            this.labelGaugeIn.Size = new System.Drawing.Size(27, 23);
-            this.labelGaugeIn.TabIndex = 12;
-            this.labelGaugeIn.Text = "In";
+            this.radInches.AutoSize = true;
+            this.radInches.Checked = true;
+            this.radInches.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.radInches.Location = new System.Drawing.Point(541, 133);
+            this.radInches.Margin = new System.Windows.Forms.Padding(5);
+            this.radInches.Name = "radInches";
+            this.radInches.Size = new System.Drawing.Size(85, 27);
+            this.radInches.TabIndex = 13;
+            this.radInches.TabStop = true;
+            this.radInches.Text = "Inches";
+            this.radInches.UseVisualStyleBackColor = true;
             // 
-            // numericGaugeMeasurementH
+            // lbGaugeIn
             // 
-            this.numericGaugeMeasurementH.AllowDrop = true;
-            this.numericGaugeMeasurementH.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericGaugeMeasurementH.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.numericGaugeMeasurementH.Location = new System.Drawing.Point(476, 136);
-            this.numericGaugeMeasurementH.Margin = new System.Windows.Forms.Padding(10);
-            this.numericGaugeMeasurementH.Name = "numericGaugeMeasurementH";
-            this.numericGaugeMeasurementH.Size = new System.Drawing.Size(50, 27);
-            this.numericGaugeMeasurementH.TabIndex = 11;
-            this.numericGaugeMeasurementH.ValueChanged += new System.EventHandler(this.numericGaugeMeasurementH_ValueChanged);
+            this.lbGaugeIn.AutoSize = true;
+            this.lbGaugeIn.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lbGaugeIn.Location = new System.Drawing.Point(372, 108);
+            this.lbGaugeIn.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.lbGaugeIn.Name = "lbGaugeIn";
+            this.lbGaugeIn.Size = new System.Drawing.Size(27, 23);
+            this.lbGaugeIn.TabIndex = 12;
+            this.lbGaugeIn.Text = "In";
             // 
-            // labelGaugeMeasurementX
+            // numGaugeMeasurementH
             // 
-            this.labelGaugeMeasurementX.AutoSize = true;
-            this.labelGaugeMeasurementX.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelGaugeMeasurementX.Location = new System.Drawing.Point(437, 135);
-            this.labelGaugeMeasurementX.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.labelGaugeMeasurementX.Name = "labelGaugeMeasurementX";
-            this.labelGaugeMeasurementX.Size = new System.Drawing.Size(19, 23);
-            this.labelGaugeMeasurementX.TabIndex = 10;
-            this.labelGaugeMeasurementX.Text = "x";
+            this.numGaugeMeasurementH.AllowDrop = true;
+            this.numGaugeMeasurementH.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numGaugeMeasurementH.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.numGaugeMeasurementH.Location = new System.Drawing.Point(476, 136);
+            this.numGaugeMeasurementH.Margin = new System.Windows.Forms.Padding(10);
+            this.numGaugeMeasurementH.Name = "numGaugeMeasurementH";
+            this.numGaugeMeasurementH.Size = new System.Drawing.Size(50, 27);
+            this.numGaugeMeasurementH.TabIndex = 11;
             // 
-            // numericGaugeMeasurementW
+            // lblGaugeMeasurementX
             // 
-            this.numericGaugeMeasurementW.AllowDrop = true;
-            this.numericGaugeMeasurementW.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericGaugeMeasurementW.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.numericGaugeMeasurementW.Location = new System.Drawing.Point(372, 136);
-            this.numericGaugeMeasurementW.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
-            this.numericGaugeMeasurementW.Name = "numericGaugeMeasurementW";
-            this.numericGaugeMeasurementW.Size = new System.Drawing.Size(50, 27);
-            this.numericGaugeMeasurementW.TabIndex = 9;
+            this.lblGaugeMeasurementX.AutoSize = true;
+            this.lblGaugeMeasurementX.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lblGaugeMeasurementX.Location = new System.Drawing.Point(437, 135);
+            this.lblGaugeMeasurementX.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.lblGaugeMeasurementX.Name = "lblGaugeMeasurementX";
+            this.lblGaugeMeasurementX.Size = new System.Drawing.Size(19, 23);
+            this.lblGaugeMeasurementX.TabIndex = 10;
+            this.lblGaugeMeasurementX.Text = "x";
             // 
-            // labelStitches
+            // numGaugeMeasurementW
             // 
-            this.labelStitches.AutoSize = true;
-            this.labelStitches.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelStitches.Location = new System.Drawing.Point(541, 76);
-            this.labelStitches.Margin = new System.Windows.Forms.Padding(5);
-            this.labelStitches.Name = "labelStitches";
-            this.labelStitches.Size = new System.Drawing.Size(72, 23);
-            this.labelStitches.TabIndex = 8;
-            this.labelStitches.Text = "Stitches";
-            this.labelStitches.Click += new System.EventHandler(this.label2_Click);
+            this.numGaugeMeasurementW.AllowDrop = true;
+            this.numGaugeMeasurementW.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numGaugeMeasurementW.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.numGaugeMeasurementW.Location = new System.Drawing.Point(372, 136);
+            this.numGaugeMeasurementW.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
+            this.numGaugeMeasurementW.Name = "numGaugeMeasurementW";
+            this.numGaugeMeasurementW.Size = new System.Drawing.Size(50, 27);
+            this.numGaugeMeasurementW.TabIndex = 9;
             // 
-            // numericGaugeStitchesH
+            // lblStitches
             // 
-            this.numericGaugeStitchesH.AllowDrop = true;
-            this.numericGaugeStitchesH.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericGaugeStitchesH.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.numericGaugeStitchesH.Location = new System.Drawing.Point(476, 76);
-            this.numericGaugeStitchesH.Margin = new System.Windows.Forms.Padding(10, 10, 10, 5);
-            this.numericGaugeStitchesH.Name = "numericGaugeStitchesH";
-            this.numericGaugeStitchesH.Size = new System.Drawing.Size(50, 27);
-            this.numericGaugeStitchesH.TabIndex = 7;
-            this.numericGaugeStitchesH.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.lblStitches.AutoSize = true;
+            this.lblStitches.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lblStitches.Location = new System.Drawing.Point(541, 76);
+            this.lblStitches.Margin = new System.Windows.Forms.Padding(5);
+            this.lblStitches.Name = "lblStitches";
+            this.lblStitches.Size = new System.Drawing.Size(72, 23);
+            this.lblStitches.TabIndex = 8;
+            this.lblStitches.Text = "Stitches";
             // 
-            // labelGaugeStitchesX
+            // numGaugeStitchesH
             // 
-            this.labelGaugeStitchesX.AutoSize = true;
-            this.labelGaugeStitchesX.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelGaugeStitchesX.Location = new System.Drawing.Point(437, 75);
-            this.labelGaugeStitchesX.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.labelGaugeStitchesX.Name = "labelGaugeStitchesX";
-            this.labelGaugeStitchesX.Size = new System.Drawing.Size(19, 23);
-            this.labelGaugeStitchesX.TabIndex = 6;
-            this.labelGaugeStitchesX.Text = "x";
-            this.labelGaugeStitchesX.Click += new System.EventHandler(this.label1_Click_1);
+            this.numGaugeStitchesH.AllowDrop = true;
+            this.numGaugeStitchesH.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numGaugeStitchesH.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.numGaugeStitchesH.Location = new System.Drawing.Point(476, 76);
+            this.numGaugeStitchesH.Margin = new System.Windows.Forms.Padding(10, 10, 10, 5);
+            this.numGaugeStitchesH.Name = "numGaugeStitchesH";
+            this.numGaugeStitchesH.Size = new System.Drawing.Size(50, 27);
+            this.numGaugeStitchesH.TabIndex = 7;
             // 
-            // labelGauge
+            // lblGaugeStitchesX
             // 
-            this.labelGauge.AutoSize = true;
-            this.labelGauge.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelGauge.Location = new System.Drawing.Point(372, 43);
-            this.labelGauge.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.labelGauge.Name = "labelGauge";
-            this.labelGauge.Size = new System.Drawing.Size(63, 23);
-            this.labelGauge.TabIndex = 5;
-            this.labelGauge.Text = "Gauge";
+            this.lblGaugeStitchesX.AutoSize = true;
+            this.lblGaugeStitchesX.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lblGaugeStitchesX.Location = new System.Drawing.Point(437, 75);
+            this.lblGaugeStitchesX.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.lblGaugeStitchesX.Name = "lblGaugeStitchesX";
+            this.lblGaugeStitchesX.Size = new System.Drawing.Size(19, 23);
+            this.lblGaugeStitchesX.TabIndex = 6;
+            this.lblGaugeStitchesX.Text = "x";
             // 
-            // numericGaugeStitchesW
+            // lblGauge
             // 
-            this.numericGaugeStitchesW.AllowDrop = true;
-            this.numericGaugeStitchesW.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericGaugeStitchesW.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.numericGaugeStitchesW.Location = new System.Drawing.Point(372, 76);
-            this.numericGaugeStitchesW.Margin = new System.Windows.Forms.Padding(10, 10, 10, 5);
-            this.numericGaugeStitchesW.Name = "numericGaugeStitchesW";
-            this.numericGaugeStitchesW.Size = new System.Drawing.Size(50, 27);
-            this.numericGaugeStitchesW.TabIndex = 4;
+            this.lblGauge.AutoSize = true;
+            this.lblGauge.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lblGauge.Location = new System.Drawing.Point(372, 43);
+            this.lblGauge.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.lblGauge.Name = "lblGauge";
+            this.lblGauge.Size = new System.Drawing.Size(63, 23);
+            this.lblGauge.TabIndex = 5;
+            this.lblGauge.Text = "Gauge";
             // 
-            // textBox1
+            // numGaugeStitchesW
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.Location = new System.Drawing.Point(13, 139);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(10);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(280, 24);
-            this.textBox1.TabIndex = 3;
+            this.numGaugeStitchesW.AllowDrop = true;
+            this.numGaugeStitchesW.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numGaugeStitchesW.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.numGaugeStitchesW.Location = new System.Drawing.Point(372, 76);
+            this.numGaugeStitchesW.Margin = new System.Windows.Forms.Padding(10, 10, 10, 5);
+            this.numGaugeStitchesW.Name = "numGaugeStitchesW";
+            this.numGaugeStitchesW.Size = new System.Drawing.Size(50, 27);
+            this.numGaugeStitchesW.TabIndex = 4;
             // 
-            // labelYarn
+            // txtYarn
             // 
-            this.labelYarn.AutoSize = true;
-            this.labelYarn.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelYarn.Location = new System.Drawing.Point(13, 108);
-            this.labelYarn.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.labelYarn.Name = "labelYarn";
-            this.labelYarn.Size = new System.Drawing.Size(48, 23);
-            this.labelYarn.TabIndex = 2;
-            this.labelYarn.Text = "Yarn";
-            this.labelYarn.Click += new System.EventHandler(this.label1_Click);
+            this.txtYarn.BackColor = System.Drawing.Color.White;
+            this.txtYarn.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtYarn.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.txtYarn.Location = new System.Drawing.Point(13, 139);
+            this.txtYarn.Margin = new System.Windows.Forms.Padding(10);
+            this.txtYarn.Name = "txtYarn";
+            this.txtYarn.Size = new System.Drawing.Size(280, 24);
+            this.txtYarn.TabIndex = 3;
             // 
-            // labelProjectName
+            // lblYarn
             // 
-            this.labelProjectName.AutoSize = true;
-            this.labelProjectName.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelProjectName.Location = new System.Drawing.Point(13, 43);
-            this.labelProjectName.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
-            this.labelProjectName.Name = "labelProjectName";
-            this.labelProjectName.Size = new System.Drawing.Size(118, 23);
-            this.labelProjectName.TabIndex = 1;
-            this.labelProjectName.Text = "Project Name";
+            this.lblYarn.AutoSize = true;
+            this.lblYarn.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lblYarn.Location = new System.Drawing.Point(13, 108);
+            this.lblYarn.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.lblYarn.Name = "lblYarn";
+            this.lblYarn.Size = new System.Drawing.Size(48, 23);
+            this.lblYarn.TabIndex = 2;
+            this.lblYarn.Text = "Yarn";
             // 
-            // textProjectName
+            // lblProjectName
             // 
-            this.textProjectName.BackColor = System.Drawing.Color.White;
-            this.textProjectName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textProjectName.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textProjectName.Location = new System.Drawing.Point(13, 76);
-            this.textProjectName.Margin = new System.Windows.Forms.Padding(10);
-            this.textProjectName.Name = "textProjectName";
-            this.textProjectName.Size = new System.Drawing.Size(280, 24);
-            this.textProjectName.TabIndex = 0;
+            this.lblProjectName.AutoSize = true;
+            this.lblProjectName.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lblProjectName.Location = new System.Drawing.Point(13, 43);
+            this.lblProjectName.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
+            this.lblProjectName.Name = "lblProjectName";
+            this.lblProjectName.Size = new System.Drawing.Size(118, 23);
+            this.lblProjectName.TabIndex = 1;
+            this.lblProjectName.Text = "Project Name";
             // 
-            // buttonCreate
+            // txtProjectName
             // 
-            this.buttonCreate.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonCreate.Location = new System.Drawing.Point(611, 221);
-            this.buttonCreate.Name = "buttonCreate";
-            this.buttonCreate.Size = new System.Drawing.Size(155, 42);
-            this.buttonCreate.TabIndex = 15;
-            this.buttonCreate.Text = "Create";
-            this.buttonCreate.UseVisualStyleBackColor = true;
+            this.txtProjectName.BackColor = System.Drawing.Color.White;
+            this.txtProjectName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtProjectName.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.txtProjectName.Location = new System.Drawing.Point(13, 76);
+            this.txtProjectName.Margin = new System.Windows.Forms.Padding(10);
+            this.txtProjectName.Name = "txtProjectName";
+            this.txtProjectName.Size = new System.Drawing.Size(280, 24);
+            this.txtProjectName.TabIndex = 0;
             // 
             // FormProjectSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(862, 335);
-            this.Controls.Add(this.newProjectInfo);
+            this.ClientSize = new System.Drawing.Size(862, 363);
+            this.Controls.Add(this.grpNewProjectInfo);
             this.Font = new System.Drawing.Font("Noto Sans", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormProjectSetup";
             this.Text = "Project Setup";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.newProjectInfo.ResumeLayout(false);
-            this.newProjectInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeMeasurementH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeMeasurementW)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeStitchesH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericGaugeStitchesW)).EndInit();
+            this.grpNewProjectInfo.ResumeLayout(false);
+            this.grpNewProjectInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeMeasurementH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeMeasurementW)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeStitchesH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numGaugeStitchesW)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox newProjectInfo;
-        private System.Windows.Forms.Label labelYarn;
-        private System.Windows.Forms.Label labelProjectName;
-        private System.Windows.Forms.TextBox textProjectName;
-        private System.Windows.Forms.Label labelGaugeStitchesX;
-        private System.Windows.Forms.Label labelGauge;
-        private System.Windows.Forms.NumericUpDown numericGaugeStitchesW;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.NumericUpDown numericGaugeStitchesH;
-        private System.Windows.Forms.Label labelStitches;
-        private System.Windows.Forms.NumericUpDown numericGaugeMeasurementH;
-        private System.Windows.Forms.Label labelGaugeMeasurementX;
-        private System.Windows.Forms.NumericUpDown numericGaugeMeasurementW;
-        private System.Windows.Forms.Label labelGaugeIn;
-        private System.Windows.Forms.RadioButton radioInches;
-        private System.Windows.Forms.RadioButton radioCentimeters;
-        private System.Windows.Forms.Button buttonCreate;
+        private System.Windows.Forms.GroupBox grpNewProjectInfo;
+        private System.Windows.Forms.Label lblYarn;
+        private System.Windows.Forms.Label lblProjectName;
+        private System.Windows.Forms.TextBox txtProjectName;
+        private System.Windows.Forms.Label lblGaugeStitchesX;
+        private System.Windows.Forms.Label lblGauge;
+        private System.Windows.Forms.NumericUpDown numGaugeStitchesW;
+        private System.Windows.Forms.TextBox txtYarn;
+        private System.Windows.Forms.NumericUpDown numGaugeStitchesH;
+        private System.Windows.Forms.Label lblStitches;
+        private System.Windows.Forms.NumericUpDown numGaugeMeasurementH;
+        private System.Windows.Forms.Label lblGaugeMeasurementX;
+        private System.Windows.Forms.NumericUpDown numGaugeMeasurementW;
+        private System.Windows.Forms.Label lbGaugeIn;
+        private System.Windows.Forms.RadioButton radInches;
+        private System.Windows.Forms.RadioButton radCentimeters;
+        private System.Windows.Forms.Button btnCreate;
     }
 }
 
