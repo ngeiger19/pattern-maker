@@ -16,5 +16,25 @@ namespace pattern_maker
         {
             InitializeComponent();
         }
+
+        private void LandingPage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

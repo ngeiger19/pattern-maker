@@ -7,4 +7,5 @@ C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.csproj
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.csproj.CoreCompileInputs.cache
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.exe
 C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern-maker.pdb
-C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern_maker.FormProjectSetup.resources
+C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern_maker.LandingPage.resources
+C:\Users\nmgei\coding\pattern-maker\pattern-maker\obj\Debug\pattern_maker.NewProject.resources

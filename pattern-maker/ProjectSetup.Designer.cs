@@ -1,6 +1,6 @@
 ﻿namespace pattern_maker
 {
-    partial class FormProjectSetup
+    partial class NewProject
     {
         /// <summary>
         /// Required designer variable.
@@ -271,7 +271,7 @@
             // 
             this.saveFileDialogNewProject.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialogNewProject_FileOk);
             // 
-            // FormProjectSetup
+            // NewProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -280,8 +280,8 @@
             this.Controls.Add(this.grpNewProjectInfo);
             this.Font = new System.Drawing.Font("Noto Sans", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "FormProjectSetup";
-            this.Text = "Project Setup";
+            this.Name = "NewProject";
+            this.Text = "Pattern Maker";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.grpNewProjectInfo.ResumeLayout(false);
             this.grpNewProjectInfo.PerformLayout();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pattern_maker
 {
-    public partial class FormProjectSetup : Form
+    public partial class NewProject : Form
     {
-        public FormProjectSetup()
+        public NewProject()
         {
             InitializeComponent();
         }
