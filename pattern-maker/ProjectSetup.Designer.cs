@@ -45,6 +45,7 @@
             this.lblYarn = new System.Windows.Forms.Label();
             this.lblProjectName = new System.Windows.Forms.Label();
             this.txtProjectName = new System.Windows.Forms.TextBox();
+            this.saveFileDialogNewProject = new System.Windows.Forms.SaveFileDialog();
             this.grpNewProjectInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numGaugeMeasurementH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numGaugeMeasurementW)).BeginInit();
@@ -266,6 +267,10 @@
             this.txtProjectName.Size = new System.Drawing.Size(280, 24);
             this.txtProjectName.TabIndex = 0;
             // 
+            // saveFileDialogNewProject
+            // 
+            this.saveFileDialogNewProject.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialogNewProject_FileOk);
+            // 
             // FormProjectSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
@@ -307,6 +312,7 @@
         private System.Windows.Forms.RadioButton radInches;
         private System.Windows.Forms.RadioButton radCentimeters;
         private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.SaveFileDialog saveFileDialogNewProject;
     }
 }
 
