@@ -32,9 +32,12 @@ namespace pattern_maker
 
         }
 
+        NewProject newProjectForm = new NewProject();
+
         private void btnNew_Click(object sender, EventArgs e)
         {
-            
+            newProjectForm.Show();
+            Hide();
         }
     }
 }
