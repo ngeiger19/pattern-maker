@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace pattern_maker
@@ -22,16 +17,11 @@ namespace pattern_maker
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSettings_Click(object sender, EventArgs e)
         {
             /*
-             * SettingsForm newSettingsForm = new SettingsForm();
-             * newSettingsForm.ShowDialog();
+            SettingsForm newSettingsForm = new SettingsForm();
+            newSettingsForm.ShowDialog();
              */
         }
 
@@ -44,29 +34,15 @@ namespace pattern_maker
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            // Open selected file and read project info.
-            OpenFileDialog openFileDialogLoad = new OpenFileDialog
+            OpenFileDialog loadProj = new OpenFileDialog();
+            if (loadProj.ShowDialog() == DialogResult.OK)
             {
-                InitialDirectory = @"C:\",
-                Title = "Load Project",
-
-                DefaultExt = "txt",
-                Filter = "Text Files|*.txt"
-            };
-
-            // test
-            if (openFileDialogLoad.ShowDialog() == DialogResult.OK)
-            {
-                lblHeading.Text = openFileDialogLoad.FileName;
+                // 1. Extract project info from file
+                // 2. Open workspace with project info
             }
-
-            /* Workspace newWorkspace = new Workspace();
-             * newWorkspace.Show();
-             * Hide();
-             */
         }
 
-        private void openFileDialogLoad_FileOk(object sender, CancelEventArgs e)
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
         }
