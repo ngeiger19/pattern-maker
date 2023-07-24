@@ -27,17 +27,48 @@ namespace pattern_maker
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnSettings_Click(object sender, EventArgs e)
         {
-
+            /*
+             * SettingsForm newSettingsForm = new SettingsForm();
+             * newSettingsForm.ShowDialog();
+             */
         }
-
-        NewProject newProjectForm = new NewProject();
 
         private void btnNew_Click(object sender, EventArgs e)
         {
+            NewProject newProjectForm = new NewProject();
             newProjectForm.Show();
             Hide();
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            // Open selected file and read project info.
+            OpenFileDialog openFileDialogLoad = new OpenFileDialog
+            {
+                InitialDirectory = @"C:\",
+                Title = "Load Project",
+
+                DefaultExt = "txt",
+                Filter = "Text Files|*.txt"
+            };
+
+            // test
+            if (openFileDialogLoad.ShowDialog() == DialogResult.OK)
+            {
+                lblHeading.Text = openFileDialogLoad.FileName;
+            }
+
+            /* Workspace newWorkspace = new Workspace();
+             * newWorkspace.Show();
+             * Hide();
+             */
+        }
+
+        private void openFileDialogLoad_FileOk(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }

@@ -32,6 +32,7 @@
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnSettings = new System.Windows.Forms.Button();
+            this.openFileDialogLoad = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -80,7 +81,12 @@
             this.btnSettings.TabIndex = 3;
             this.btnSettings.Text = "Settings";
             this.btnSettings.UseVisualStyleBackColor = true;
-            this.btnSettings.Click += new System.EventHandler(this.button3_Click);
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
+            // openFileDialogLoad
+            // 
+            this.openFileDialogLoad.FileName = "openFileDialogLoad";
+            this.openFileDialogLoad.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialogLoad_FileOk);
             // 
             // LandingPage
             // 
@@ -108,5 +114,6 @@
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Button btnLoad;
+        private System.Windows.Forms.OpenFileDialog openFileDialogLoad;
     }
 }
